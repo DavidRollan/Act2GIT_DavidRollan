@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+section{
+    margin: 6vw;
+}
+
 img {
     height: 40%;
     width: 40%;
