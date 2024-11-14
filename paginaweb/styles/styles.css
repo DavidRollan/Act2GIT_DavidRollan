@@ -1,118 +1,70 @@
-/* Reseteo de estilos básicos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-/* Estilo del encabezado */
+img {
+    height: 40%;
+    width: 40%;
+}
+
+/* Estilo para el encabezado */
 header {
-    text-align: left;
-    padding: 1rem;
-    color: green;
+    text-align: center;
+    padding: 10px;
 }
 
+header h1 {
+    color: green;
+    font-size: 24px;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    color: gray;
+    margin: 0;
+}
+
+/* Estilos para el menú de navegación */
 nav {
     background-color: green;
-    padding: 0.5rem;
+    text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
+    padding: 10px 20px;
     display: inline-block;
 }
 
 nav ul li a:hover {
-    background-color: white;
-    color: green;
-    transition: background-color 0.3s, color 0.3s;
+    background-color: darkgreen;
 }
 
+/* Estilo para la imagen principal */
 main {
-    flex: 1;
-    padding: 2rem;
-}
-
-/* Estilo de la tabla */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
-}
-
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
     text-align: center;
+    padding: 20px;
 }
 
-th {
-    background-color: green;
-    color: white;
-}
-
-/* Estilos de colores para diferentes asignaturas */
-.programacion {
-    background-color: #d1e7dd;
-    color: #0f5132;
-}
-
-.fol {
-    background-color: #f8d7da;
-    color: #842029;
-}
-
-.entornos {
-    background-color: #cff4fc;
-    color: #055160;
-}
-
-.bases_datos {
-    background-color: #e2e3e5;
-    color: #41464b;
-}
-
-.lenguaje {
-    background-color: #d4edda;
-    color: #155724;
-}
-
-.sistemas {
-    background-color: #fef3c7;
-    color: #92400e;
-}
-
-.sostenibilidad {
-    background-color: #d1fae5;
-    color: #064e3b;
-}
-
-.digitalizacion {
-    background-color: #ede9fe;
-    color: #5b21b6;
-}
-
-.recreo {
-    background-color: #000000;
-    color: white;
-    font-weight: bold;
+.instituto-img {
+    max-width: 80%;
+    height: auto;
+    margin-top: 20px;
 }
 
 /* Estilo para el pie de página */
@@ -120,5 +72,8 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
