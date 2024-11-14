@@ -1,4 +1,3 @@
-/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -10,7 +9,6 @@ img {
     width: 40%;
 }
 
-/* Estilo para el encabezado */
 header {
     text-align: center;
     padding: 10px;
@@ -28,7 +26,6 @@ header p {
     margin: 0;
 }
 
-/* Estilos para el menú de navegación */
 nav {
     background-color: green;
     text-align: center;
@@ -51,23 +48,87 @@ nav ul li a {
     display: inline-block;
 }
 
+img {
+   width: 40%;
+   height: 40%;
+}
+
 nav ul li a:hover {
     background-color: darkgreen;
 }
 
-/* Estilo para la imagen principal */
 main {
-    text-align: center;
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
     padding: 20px;
+    text-align: center;
 }
 
-.instituto-img {
-    max-width: 80%;
-    height: auto;
-    margin-top: 20px;
+th {
+    background-color: #2e7d32;
+    color: white;
+    font-weight: bold;
 }
 
-/* Estilo para el pie de página */
+.programacion {
+    background-color: #a5d6a7;
+    color: #1b5e20;
+}
+
+.fol {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.entornos {
+    background-color: #81c784;
+    color: #1b5e20;
+}
+
+.bases_datos {
+    background-color: #66bb6a;
+    color: #004d40;
+}
+
+.lenguaje {
+    background-color: #aed581;
+    color: #33691e;
+}
+
+.sistemas {
+    background-color: #c5e1a5;
+    color: #558b2f;
+}
+
+.sostenibilidad {
+    background-color: #dcedc8;
+    color: #33691e;
+}
+
+.digitalizacion {
+    background-color: #b9f6ca;
+    color: #1b5e20;
+}
+
+.recreo {
+    background-color: #004d40;
+    color: white;
+    font-weight: bold;
+}
+
 footer {
     background-color: black;
     color: white;
